@@ -42,7 +42,7 @@ Needs Manage Roles and Manage Channels Permissions.** |  `.cleanv+t`
 `.togglexclsar`, `.tesar`  |  toggle whether the self-assigned roles should be exclusive |  `.tesar`
 `.iam`  |  Adds a role to you that you choose. Role must be on a list of self-assignable roles. |  `.iam Gamer`
 `.iamnot`, `.iamn`  |  Removes a role to you that you choose. Role must be on a list of self-assignable roles. |  `.iamn Gamer`
-`.addcustreact`, `.acr`  |  Add a custom reaction. Guide here: <https://github.com/Kwoth/NadekoBot/wiki/Custom-Reactions> **Bot Owner Only!**   |  `.acr "hello" I love saying hello to %user%`
+`.addcustreact`, `.acr`  |  Add a custom reaction. Guide here: <https://github.com/Midoriin/ShinobuBot/wiki/Shinobu-Custom-Reactions> **Bot Owner Only!**   |  `.acr "hello" I love saying hello to %user%`
 `.listcustreact`, `.lcr`  |  Lists custom reactions (paginated with 30 commands per page). Use 'all' instead of page number to get all custom reactions DM-ed to you.  | `.lcr 1`
 `.showcustreact`, `.scr`  |  Shows all possible responses from a single custom reaction. | `.scr %mention% bb`
 `.editcustreact`, `.ecr`  |  Edits a custom reaction, arguments are custom reactions name, index to change, and a (multiword) message **Bot Owner Only** |  `.ecr "%mention% disguise" 2 Test 123`
