@@ -77,12 +77,10 @@ Needs Manage Roles and Manage Channels Permissions.** |  `.cleanv+t`
 `.die`  |  Shuts the bot down and notifies users about the restart. **Bot Owner Only!** |  `.die`
 `.setname`, `.newnm`  |  Give the bot a new name. **Bot Owner Only!** |  .newnm BotName
 `.newavatar`, `.setavatar`  |  Sets a new avatar image for the Shinobu. Argument is a direct link to an image. **Bot Owner Only!** |  `.setavatar https://i.ytimg.com/vi/WDudkR1eTMM/maxresdefault.jpg`
-`.setgame`  |  Sets the bots game. **Bot Owner Only!** |  `.setgame Playing with kwoth`
+`.setgame`  |  Sets the bots game. **Bot Owner Only!** |  `.setgame with Midorina ♥`
 `.send`  |  Send a message to someone on a different server through the bot. **Bot Owner Only!** |  `.send serverid|u:user_id Send this to a user!` or `.send serverid|c:channel_id Send this to a channel!`
 `.mentionrole`, `.menro`  |  Mentions every person from the provided role or roles (separated by a ',') on this server. Requires you to have mention everyone permission. |  `.menro RoleName`
 `.unstuck`  |  Clears the message queue. **Bot Owner Only!** |  `.unstuck`
-`.donators`  |  List of lovely people who donated to keep this project alive. |  `.donators`
-`.donadd`  |  Add a donator to the database. **Kwoth Only** |  `.donadd Donate Amount`
 `.announce`  |  Sends a message to all servers' general channel bot is connected to.**Bot Owner Only!** |  `.announce Useless spam`
 `.savechat`  |  Saves a number of messages to a text file and sends it to you. **Bot Owner Only** |  `.savechat 150`
 
@@ -123,7 +121,7 @@ Command and aliases |  Description |  Usage
 `;srvrperms`, `;sp`  |  Shows banned permissions for this server. |  `;sp`
 `;roleperms`, `;rp`  |  Shows banned permissions for a certain role. No argument means for everyone. |  `;rp AwesomeRole`
 `;chnlperms`, `;cp`  |  Shows banned permissions for a certain channel. No argument means for this channel. |  `;cp #dev`
-`;userperms`, `;up`  |  Shows banned permissions for a certain user. No argument means for yourself. |  `;up Kwoth`
+`;userperms`, `;up`  |  Shows banned permissions for a certain user. No argument means for yourself. |  `;up Midorina`
 `;srvrmdl`, `;sm`  |  Sets a module's permission at the server level. |  `;sm "module name" enable`
 `;srvrcmd`, `;sc`  |  Sets a command's permission at the server level. |  `;sc "command name" disable`
 `;rolemdl`, `;rm`  |  Sets a module's permission at the role level. |  `;rm "module name" enable MyRole`
@@ -252,7 +250,7 @@ Command and aliases |  Description |  Usage
 `~liststreams`, `~ls`  |  Lists all streams you are following on this server. |  `~ls`
 `~convert`  |  Convert quantities from>to. |  `~convert m>km 1000`
 `~convertlist`  |  List of the convertable dimensions and currencies.
-`~wowjoke`  |  Get one of Kwoth's penultimate WoW jokes. |  `~wowjoke`
+`~wowjoke`  |  Get one penultimate WoW jokes. |  `~wowjoke`
 `~calculate`, `~calc`  |  Evaluate a mathematical expression. |  `~calc 1+1`
 `~osu`  |  Shows osu stats for a player. |  `~osu Name` or `~osu Name taiko`
 `~osu b`  |  Shows information about an osu beatmap. | `~osu b` https://osu.ppy.sh/s/127712
